@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!--<div>
+        <img class="imgAlura" src="imagenes/alura.jpg">
+
+        <img class="imgOracle" src="imagenes/oracle.png">
+    </div>-->
+
+    <div class="contenedor">
+        <div class="encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"
+            ></textarea>
+        </div>
+
+        <div class="terminos">
+            <p>Solo letras minusculas y sin acetentos. No se aceptan simbolos ni numeros</p>
+        </div>
+
+        <div class="botones">
+
+            <button class="botonEncriptar" type="button" onclick="encriptar()">Encriptar
+            </button>
+
+            <button class="botonDesencriptar" type="button" onclick="desencriptar()">Desencriptar
+            </button>
+
+        </div>    
+
+    
+
+    <div class="encriptado">
+        <img src="imagenes/Hacker-PNG-Image.png" id="muneco">
+        <div class="mensajeEncriptado" id="mensajeEncriptado">
+            <h2 id="tituloMensaje">Mensaje no encontrado</h2>
+            <p id="parrafo"> Ingresa el texto que deseas encriptar  o desencriptar</p>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+        </div>
+    </div>    
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
